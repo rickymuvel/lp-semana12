@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>2.0</jspversion>
+	<shortname></shortname>
+	<uri>misLibrerias</uri><!-- Alias de la libreria de Tag -->
+
+	<!-- Registro de Libreria de Tag -->
+		
+	<!-- 
+		empty :Tag sin cuerpo 
+		JSP : Tag con cuerpo
+	-->	
+	
+	<tag>
+		<name>TagSeleccionBd</name>
+		<tagclass>tags.TagSeleccionBd</tagclass>
+		<bodycontent>empty</bodycontent>
+
+		<attribute>
+			<name>nombre</name>
+			<required>true</required>
+		</attribute>	
+		<attribute>
+			<name>aliasSql</name>
+			<required>true</required>
+		</attribute>					
+	</tag>	
+			
+</taglib>
+
+
+
+
+
+
+
+
+

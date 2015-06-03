@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Aaaaaaaa</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletConsultaAlumno</display-name>
+    <servlet-name>ServletConsultaAlumno</servlet-name>
+    <servlet-class>servlet.ServletConsultaAlumno</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletConsultaAlumno</servlet-name>
+    <url-pattern>/consultaAlumno</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletconsultaAlumnoDisplay</display-name>
+    <servlet-name>ServletconsultaAlumnoDisplay</servlet-name>
+    <servlet-class>servlet.ServletconsultaAlumnoDisplay</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletconsultaAlumnoDisplay</servlet-name>
+    <url-pattern>/consultaAlumnoDisplayTag</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletEliminaAlumno</display-name>
+    <servlet-name>ServletEliminaAlumno</servlet-name>
+    <servlet-class>servlet.ServletEliminaAlumno</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletEliminaAlumno</servlet-name>
+    <url-pattern>/eliminaAlumno</url-pattern>
+  </servlet-mapping>
+</web-app>
